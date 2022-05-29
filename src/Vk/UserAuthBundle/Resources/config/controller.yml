@@ -1,0 +1,7 @@
+services:
+  vk.userauth.controller:
+    public: true
+    class: 'App\Vk\UserAuthBundle\controller\UserAuthController'
+    calls:
+      - [setContainer, ['@service_container']]
+  

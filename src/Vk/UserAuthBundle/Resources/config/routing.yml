@@ -1,0 +1,4 @@
+user_register:
+  path: /user-register
+  default: {_controller:  vk.userauth.controller::userRegister}
+  methods: POST

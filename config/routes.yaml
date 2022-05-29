@@ -1,3 +1,22 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
+index_path:
+   path: /
+   controller: App\Controller\DefaultController::index
+
+get_users:
+   path: /users
+   controller: App\Controller\DefaultController::index
+
+get_post:
+   path: /posts
+   controller: App\Controller\DefaultController::index
+
+add_user:
+   path: /add-user
+   controller: App\Controller\DefaultController::index
+
+add_api_user:
+   path: /api/add-users
+   controller: App\Controller\DefaultController::addNewUser
+   methods: POST
+
+   
